@@ -2,7 +2,7 @@ import sys
 sys.path.append('..')
 from functions import openWrite as o
 
-values = o.open_file("day1.txt")
+values = o.open_file_int("day1.txt")
 
 # part A
 counter_A = 0
